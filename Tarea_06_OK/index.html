@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 06</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javascript.js"></script>
+</head>
+
+<body>
+    <!-- Encabezado-->
+    <header id="Encabezado">
+        <div id="DivEncabezado">
+            <img src="img/LOGO-TBPE-2019-(Horizontal).png" alt="logo_header" id="logo-header">
+        </div>
+    </header>
+    <!-- Navegador-->
+    <nav id="Navegador">
+        <ul id="Menu">
+            <li id="link-menu">Opción 1</li>
+            <li id="link-menu">Opción 2</li>
+            <li id="link-menu">Opción 3</li>
+            <li id="link-menu">Opción 4</li>
+            <li id="link-menu">Opción 5</li>
+        </ul>
+    </nav>
+    <!-- Contenido-->
+    <main id="Contenedor">
+        <div id="box-principal">
+            <!-- Caja Video-->
+            <div id="box-video">
+                <video id="video-1" src="img/video_claps.mp4" autoplay muted></video>
+            </div>
+            <!-- Caja Fotos-->
+            <div id="box-fotos">
+                <img src="img/animal2016.png" alt="" id="logos-1">
+                <img src="img/instablack.jpg" alt="" id="logos-1">
+                <img src="img/instaled.jpg" alt="" id="logos-1">
+                <img src="img/KING.jpg" alt="" id="logos-1">
+                <img src="img/redlightinsta.jpg" alt="" id="logos-1">
+                <img src="img/tbpe.png" alt="" id="logos-1">
+            </div>
+        </div>
+        <div id="box-contenidos">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eos eaque rem illum rerum reiciendis aut tempore explicabo esse quam! Quisquam dignissimos laborum qui iste magni odio provident, voluptatibus numquam. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Esse, ipsa? Perferendis dicta illum accusantium veniam cupiditate, molestiae sequi magnam nihil assumenda rerum minus nemo exercitationem nostrum dolore, deserunt deleniti! Dignissimos! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Incidunt saepe sequi architecto? Excepturi id cumque nesciunt, quam aperiam, hic fugit exercitationem non est tempore blanditiis, suscipit cum iste reiciendis molestiae. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Molestiae magni maxime, fugit reiciendis ipsum commodi, natus obcaecati cumque officiis doloremque esse blanditiis aut perferendis dicta quia earum eos impedit ratione!</p>
+            <img id="foto-contenidos" src="img/img_dj.jpg" alt="">
+        </div>
+        <div id="box-contenidos">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eos eaque rem illum rerum reiciendis aut tempore explicabo esse quam! Quisquam dignissimos laborum qui iste magni odio provident, voluptatibus numquam. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Esse, ipsa? Perferendis dicta illum accusantium veniam cupiditate, molestiae sequi magnam nihil assumenda rerum minus nemo exercitationem nostrum dolore, deserunt deleniti! Dignissimos! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Incidunt saepe sequi architecto? Excepturi id cumque nesciunt, quam aperiam, hic fugit exercitationem non est tempore blanditiis, suscipit cum iste reiciendis molestiae. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Molestiae magni maxime, fugit reiciendis ipsum commodi, natus obcaecati cumque officiis doloremque esse blanditiis aut perferendis dicta quia earum eos impedit ratione!</p>
+            <img id="foto-contenidos" src="img/img_dj.jpg" alt="">
+        </div>
+        <!-- Barra Lateral-->
+        <div id="box-lateral">
+            <aside id="barra-lateal">
+                <!-- Menu Lateral-->
+                <ul id="Menu-lateral">
+                    <h1>CONCEPTOS</h1>
+                    <li id="link-menu-lateral">Opción 1</li>
+                    <li id="link-menu-lateral">Opción 2</li>
+                    <li id="link-menu-lateral">Opción 3</li>
+                    <li id="link-menu-lateral">Opción 4</li>
+                    <li id="link-menu-lateral">Opción 5</li>
+                    <li id="link-menu-lateral">Opción 6</li>
+                    <li id="link-menu-lateral">Opción 7</li>
+                    <li id="link-menu-lateral">Opción 8</li>
+                    <li id="link-menu-lateral">Opción 9</li>
+                    <li id="link-menu-lateral">Opción 10</li>
+                </ul>
+                <!-- Formulario Lateral-->
+                <form id="formulario" action="">
+                    <h1>SUSCRIBETE</h1>
+                    <input id="nombre" onchange="ValidaNombre()" class="box-fomulario" type="text" placeholder="Ingrese Nombre">
+                    <input id="nombre" class="box-fomulario" type="text" placeholder="Ingrese Apellido">
+                    <input id="nombre" class="box-fomulario" type="text" placeholder="Ingrese Pais">
+                    <input id="nombre" class="box-fomulario" type="text" placeholder="Ingrese Ciudad">
+                    <input id="nombre" class="box-fomulario" type="text" placeholder="Ingrese Comuna">
+                    <input id="nombre" class="box-fomulario" type="text" placeholder="Ingrese Dirección">
+                    <input id="nombre" class="box-fomulario" type="text" placeholder="Ingrese Telefono">
+                    <input id="nombre" class="box-fomulario" type="text" placeholder="Ingrese Correo">
+                    <input id="boton-enviar" class="box-fomulario" type="submit" value="Enviar" onclick="HacerClick()">
+                </form>
+                <audio id="track" src="audio/Untitled.mp3" autoplay></audio>
+            </aside>
+        </div>
+    </main>
+    <!-- Pie-->
+    <footer id="Pie">
+        <h1 id="copy">Diseñado y Desarrollador por <a href="https://www.linkedin.com/in/felipe-araneda-flores/" target="_blank">Felipe Araneda / Ingeniero Informatico </a> - Copyright 2021.</h1>
+    </footer>
+</body>
+
+</html>
